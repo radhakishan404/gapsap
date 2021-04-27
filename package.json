@@ -1,0 +1,27 @@
+{
+    "name": "Gapsap",
+    "version": "0.0.1",
+    "description": "Video Call and Chat at the same time like omegle",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error no test specified\" && exit 1",
+        "gapsap": "cd gapsap-baate && npm start",
+        "dev": "concurrently \"node index.js\" \"npm run gapsap\""
+    },
+    "keywords": [
+        "Video Chat",
+        "Audio Chat",
+        "Gapsap",
+        "Video Call",
+        "Live Video Call"
+    ],
+    "author": "Radhakishan Jangid {radhakishanjangid404@gmail.com}",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.0.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "socket.io": "^4.0.1",
+        "socket.io-client": "^4.0.1"
+    }
+}
